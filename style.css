@@ -1,0 +1,26 @@
+.bootoninicio{
+	text-align: center;
+	padding: 7px;
+}
+button {
+	background-color: #2E64FE;
+}
+
+body {
+	border: grey 1px solid;
+	margin: 100px;
+}
+
+.columna{
+	display: inline-block;
+	width: 38%;
+	padding-left: 10px;
+}
+.ready{
+	background-color: #D8D8D8;
+	margin: 15px;
+}
+.rayito{
+	background-color: 0;
+    padding-right: 85%;
+}

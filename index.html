@@ -3,22 +3,43 @@
 <head>
 	<meta charset="UTF-8"
 	<title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+ <header>
+ <center>
+  <div>
 	<button>
 		Acceder al Formulario
 		</button>
+  </div>
+  </center>
+  <body>
+  <div class="container">
+  <form>
+    <div class="ready">
 		<p><strong>fecha de solicitud</strong></p>
-		<input type="date">
+		<input type="date" class="rayito">
+  </div >
+    <div  class="columna">
 		<p><strong>Nommbre completo</strong></p>
 		<input type="text" size="15" maxlength="30" value="pepito perez" name="nombre">
-		<p><strong>Fecha de nacimiento</strong></p>
+  </div>
+		<div class="columna">
+    <p><strong>Fecha de nacimiento</strong></p>
 		<input type="date">
-		<p><strong>Correo electronico</strong></p>
-		<input type="email">
+		</div>
+    <div class="columna">
+    <p><strong>Correo electronico</strong></p>
+		<input type="email" >
+  </div>
+    <div class="columna">
 		<p><strong>Telefono</strong></p>
-		<input type="number">
+		<input type="number" >
+    </div>
+    <div class="columna">
 		<p><strong>Seleccione su genero</strong></p><input type="checkbox"> Masculino<input type="checkbox">Femenino<input type="checkbox">Otro<input type="checkbox">
+  </div>
+    <div class="columna">
 		<p><strong>departamento</strong></p>
 		 <select>
 			<label>seleccione su departamento</label>
@@ -55,7 +76,9 @@
   <option>vaupes</option>
   <option>vichada</option>
   </select>
-  	<p><strong>Municipio</strong></p>
+</div>
+  <div class="columna">
+  	<p><strong>ciudad</strong></p>
   	<select>
   	<label>ciudad</label>
   	<option value="1">Abriaqui</option>
@@ -1159,34 +1182,56 @@
 <option value="1099">Úmbita</option>
 <option value="1100">Útica</option>
 </select>
+</div>
+    <div class="columna">
 <p><strong>Direccion</strong></p>
-<input type="text">
+<input type="text" >
+</div>
+    <div class="columna">
 <p><strong>seleccione el tipo de domicilio</strong></p>
 <input type="radio" name="domicilio" value="casa" /> casa
 <input type="radio" name="domicilio" value="apartamento" /> apartamento
 <input type="radio" name="domicilio" value="finca" /> finca
 <input type="radio" name="domicilio" value="otro" /> otro
-<div>
+</div>
+<div class="columna">
 <input type="text" value="especifique otro">
 </div>
+    <div class="columna">
 <p><strong>numero de integrantes del domicilio</strong></p>
 <input type="number">
+</div>
+<div class="columna">
 <p><strong>¿porque quieres adoptar una mascota?</strong></p>
 <input type="text">
+</div>
+    <div class="columna">
 <p><strong>¿tienes experiencia con los animales?</strong></p>
 <input type="checkbox">Si<input type="checkbox">No
+</div>
+<div class="columna">
 <p><strong>¿tienes otras mascotas?</strong></p>
 <input toype="checkbox">Si<input type="checkbox">No
+</div>
+    <div class="columna">
 <p><strong>¿cuales son tus ingresos mensuales?</strong></p>
 <input type="number">
+</div>
+<div class="columna">
 <p><strong>¿cuantos ingresos dispones para tu mascota?</strong></p>
 <input type="number">
+</div>
+    <div class="columna">
 <p><strong>¿cuanto tiempo piensas dedicarle a tu mascota?</strong></p>
 <input type="text">
+</div>
+<div class="columna">
 <p><strong>en caso de estar ausente ¿quien cuidara de tu mascota?</strong></p>
 <input type="text">
+</div>
+</form>
+</div>
 <p><button>Guardar</button></p>
 <p><button>boton de respuestas</button></p>
-
 	</body>
 </html>
